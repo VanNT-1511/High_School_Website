@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px gray;
+}
+header img{
+    width: 100%;
+    height: 500px;
+}
+nav{
+    background-color: brown;
+    line-height: 40px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0 80px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.menu ul li{
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 250px;
+    background-color: rgb(246, 207, 116);
+    box-shadow: 0 0 1px gray;
+    text-align: center;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: brown;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul ul a:hover{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+aside {
+    min-height: 600px;
+    width: 15%;
+    background-color: rgb(173, 97, 97);
+    float: left;
+}
+aside ul{
+    list-style: none;
+    text-align: center;
+}
+aside ul li{
+    padding: 60px 0;
+}
+aside ul li a{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+aside ul li a:hover{
+    text-decoration: underline;
+    color: darkslategray;
+}
+article {
+    min-height: 600px;
+    width: 70%;
+    background-color: white;
+    float: left;
+}
+.col{
+    width: 400px;
+    padding: 10px;
+    margin: 10px 8px;
+    border: 1px solid gray;
+    background-color: darkgrey;
+}
+article ul{
+    list-style: none;
+}
+article h1{
+    color: red;
+    padding: 5px 10px;
+}
+form{
+    padding: 0 10px;
+}
+aside img{
+    width: 100%;
+    padding: 100px 0;
+    
+}
+footer{
+    border-top: 5px double rgb(198, 198, 113);
+    line-height: 50px;
+    background-color: rgb(209, 209, 48);
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
